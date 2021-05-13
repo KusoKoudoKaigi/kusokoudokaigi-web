@@ -1,18 +1,23 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+import Layout from "../components/Layout/Layout"
+import Seo from "../components/Seo/Seo"
+
+import Title from "../components/Title/Title"
+import Concept from "../components/Concept/Concept"
+import Join from "../components/Join/Join"
+import Detail from "../components/Detail/Detail"
+import Thanks from "../components/Thanks/Thanks"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-    </p>
+    <Seo title="Hello!" />
+    <Title/>
+    <Concept/>
+    <Join/>
+    <Detail/>
+    <Thanks/>
   </Layout>
 )
 
