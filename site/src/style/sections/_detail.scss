@@ -1,0 +1,10 @@
+#detail {
+    color: $black;
+    margin: 0;
+    padding: 2rem 0;
+    width: 100%;
+
+    h2 {
+        @include underline;
+    }
+}

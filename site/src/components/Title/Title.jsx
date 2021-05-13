@@ -1,10 +1,12 @@
 import * as React from "react"
-import { Link } from "gatsby"
+import { Container } from "react-bootstrap"
 
 const Title = () => (
   <div id="title">
-    <h1>KusoKousoKaigi</h1>
-    <p>クソコード・プログラミング大喜利コンテスト</p>
+    <Container>
+      <h1>KusoKousoKaigi</h1>
+      <h2>クソコード・プログラミング大喜利コンテスト</h2>
+    </Container>
   </div>
 )
 

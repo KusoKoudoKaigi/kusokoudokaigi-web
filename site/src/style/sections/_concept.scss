@@ -1,0 +1,21 @@
+#concept {
+    background-color: $black;
+    color: whitesmoke;
+    margin: 0;
+    padding: 2rem 0;
+    width: 100%;
+
+    .row {
+        width: 100%;
+        margin: auto;
+    }
+
+    h2 {
+        @include underline;
+    }
+
+    h3 {
+        padding-left: 2rem;
+        margin-bottom: 20px;
+    }
+}

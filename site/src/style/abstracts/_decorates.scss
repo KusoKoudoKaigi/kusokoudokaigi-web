@@ -1,0 +1,4 @@
+@mixin underline {
+    width: fit-content;
+    border-bottom: solid 0.3rem $accent-color;
+}

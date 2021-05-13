@@ -1,0 +1,21 @@
+#join {
+    color: $black;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 2rem 0;
+    text-align: center;
+
+
+    h2 {
+        @include underline;
+    }
+
+    p {
+        margin: auto;
+        padding: 10px;
+    }
+
+    .row {
+        padding: 1rem 0;
+    }
+}

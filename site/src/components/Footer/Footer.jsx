@@ -29,9 +29,9 @@ const Footer = () => (
           </lu>
         </Col>
       </Row>
-      </Container>
-      <hr/>
-      <p style={{textAlign:`center`}}>© 2021 KusoKoudoKaigi</p>
+    </Container>
+    <hr/>
+    <p style={{textAlign:`center`}}>© 2021 KusoKoudoKaigi</p>
   </footer>
 )
 

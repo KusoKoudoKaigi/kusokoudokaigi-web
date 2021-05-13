@@ -13,6 +13,7 @@ import Header from "../Header/Header"
 import Footer from "../Footer/Footer"
 
 import 'bootstrap/dist/css/bootstrap.min.css'
+import '../../style/main.scss'
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -27,16 +28,8 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
-      </div>
+      <Header />
+      <main>{children}</main>
       <Footer />
     </>
   )

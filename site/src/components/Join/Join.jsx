@@ -18,9 +18,9 @@ JoinButton.propTypes = {
 }
 
 const Join = () => (
-  <div>
-    <h2>KusoKoudoKaigiに参加する</h2>
-    <Container className="join">
+  <div id="join">
+    <Container>
+      <h2>KusoKoudoKaigiに参加する</h2>
       <Row>
         <div className="next-submit">
           <h3>クソコードを書いて参戦する</h3>
@@ -34,7 +34,7 @@ const Join = () => (
           </JoinButton>
         </div>
       </Row>
-      <Row>
+      <Row xs={1} lg={2}>
         <Col className="next-judge">
           <h3>クソコードを審査する</h3>
           <p>

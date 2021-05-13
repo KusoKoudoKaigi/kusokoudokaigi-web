@@ -21,8 +21,8 @@ const PastOverview = () => (
 
 const Detail = () => (
   <div id="detail">
-    <h2>KusoKoudoKaigiについて知る</h2>
     <Container>
+      <h2>KusoKoudoKaigiについて知る</h2>
       <Row>
         <h3>これまでのKusoKoudoKaigi</h3>
         <PastOverview/>
