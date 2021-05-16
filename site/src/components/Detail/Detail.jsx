@@ -1,6 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import { Table, Container, Row, Col } from "react-bootstrap"
+import { Table, Container, Row } from "react-bootstrap"
 
 import JSONData from "../../content/detail.json"
 

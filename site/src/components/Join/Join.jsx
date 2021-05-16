@@ -1,6 +1,5 @@
 import * as React from "react"
 import PropTypes from "prop-types"
-import { Link } from "gatsby"
 import { Container, Row, Col, Button } from "react-bootstrap"
 
 import ContestJSON from "../../content/contest.json"

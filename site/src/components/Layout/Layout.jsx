@@ -7,7 +7,6 @@
 
 import * as React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "../Header/Header"
 import Footer from "../Footer/Footer"
@@ -15,25 +14,13 @@ import Footer from "../Footer/Footer"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '../../style/main.scss'
 
-const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
-  return (
-    <>
-      <Header />
-      <main>{children}</main>
-      <Footer />
-    </>
-  )
-}
+const Layout = ({ children }) => (
+  <>
+    <Header />
+    <main>{children}</main>
+    <Footer />
+  </>
+)
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
