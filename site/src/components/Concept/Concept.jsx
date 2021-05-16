@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Container, Row, Col, Tab } from "react-bootstrap"
+import { Container, Row, Col } from "react-bootstrap"
 
 const Concept = () => (
   <div id="concept">
