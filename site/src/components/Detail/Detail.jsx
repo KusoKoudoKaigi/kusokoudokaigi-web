@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import { Table, Container, Row } from "react-bootstrap"
 
 import JSONData from "../../content/detail.json"
@@ -11,8 +10,8 @@ const PastOverview = () => (
       return <tr key={`past_overview_${index}`}>
         <td>KusoKoudoKaigi{data.num}</td>
         <td>{data.date}</td>
-        <td><Link href={data.live_url}>Go to Live</Link></td>
-        <td><Link href={data.overview}>Result</Link></td>
+        <td><a href={data.live_url}>Go to Live</a></td>
+        <td><a href={data.overview}>Result</a></td>
       </tr>
     })}
     </tbody>
