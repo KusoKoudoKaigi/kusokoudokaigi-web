@@ -19,14 +19,14 @@ const Footer = () => (
         </Col>
         <Col className="links">
           <h4>Links</h4>
-          <lu>
+          <ul>
             <li>
             <Link to="https://github.com/KusoKoudoKaigi"> Github </Link>
             </li>
             <li>
               <Link to="https://www.youtube.com/hashtag/kusokoudokaigi">Youtube</Link>
             </li>
-          </lu>
+          </ul>
         </Col>
       </Row>
     </Container>
