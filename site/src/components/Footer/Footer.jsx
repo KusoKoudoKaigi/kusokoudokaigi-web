@@ -21,10 +21,10 @@ const Footer = () => (
           <h4>Links</h4>
           <ul>
             <li>
-            <Link to="https://github.com/KusoKoudoKaigi"> Github </Link>
+            <a href="https://github.com/KusoKoudoKaigi"> Github </a>
             </li>
             <li>
-              <Link to="https://www.youtube.com/hashtag/kusokoudokaigi">Youtube</Link>
+              <a href="https://www.youtube.com/hashtag/kusokoudokaigi">Youtube</a>
             </li>
           </ul>
         </Col>
