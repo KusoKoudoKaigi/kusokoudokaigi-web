@@ -49,7 +49,7 @@ const Recruit = ({codeName, episodeName, deadline}) => (
           提出は, 以下のフォームから<br />
           ソースコード, 実行結果, アピールポイントを提出してください！
         </p>
-        <Button href="https://forms.gle/fWeFLhHcHXiYs2d79">クソコードをくらえ！</Button>
+        <Button>募集は終了しました</Button>
       </CodeAndEpisode>
 
       <hr/>
@@ -61,7 +61,7 @@ const Recruit = ({codeName, episodeName, deadline}) => (
           エンジニアの職場で出会った荒くれ者、やべープログラマ、自身のヤバいプログラミングエピソードなどなど<br />
           さまざまな荒くれエピソードを募集しています。
         </p>
-        <Button href="https://forms.gle/DTBZzbfXnnfyvBV28">クソエピソードをくらえ！</Button>
+        <Button>募集は終了しました</Button>
       </CodeAndEpisode>
 
       <hr/>
@@ -79,7 +79,7 @@ const KaigiPage = () => {
   return (
     <Layout>
       <Seo title={title} />
-      <Title title={title} subtitle="強盗にFizzBuzzを要求されたら"/>
+      <Title title={title} subtitle="強盗にFizzBuzzを要求されたら" is_close={true}/>
       <Abst
         concept="強盗に出すクソFizzBuzzを募集して、最狂のFizzBuzzを決める配信！"
         deadline={deadline} livedate="YouTubeLiveにて 8月14日(日)21時~"
